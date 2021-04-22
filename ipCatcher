@@ -1,0 +1,4 @@
+#!/bin/bash
+ifconfig | grep "broadcast" | cut -d " " -f 2 >> ipAddr.txt
+
+
